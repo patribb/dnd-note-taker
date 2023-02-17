@@ -1,0 +1,14 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "outDir": "./public/js",
+        "target": "es6",
+        "module": "es6",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "jsx": "react",
+        "lib": ["ES2017", "DOM"]
+    },
+    "include": ["."]
+}
